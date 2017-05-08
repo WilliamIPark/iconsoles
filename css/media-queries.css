@@ -1,0 +1,49 @@
+/* Tablets */
+@media (max-width : 768px) {
+  p, h1, button {
+    font-size: 18px;
+  }
+
+  /* Large Version of the icon. */
+  .icon-large {
+    max-height: 1000px;
+    height: 50vh;
+  }
+
+  /* Small versions of icon, shown on selection menu. */
+  .icon-small {
+    width: 100px;
+    height: 100px;
+    transform: scale(0.9, 0.9);
+  }
+
+  /*The small logo that sits in the top left corner.*/
+  .logo-small {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: auto;
+  }
+
+  /*Large logo used on welcome page*/
+  #logo-large {
+    width: 300px;
+    height: auto;
+  }
+
+  #console-selection {
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width : 600px) {
+  p, h1, button {
+    font-size: 16px;
+  }
+
+  .icon-large {
+    max-height: 1000px;
+    height: 25vh;
+  }
+}

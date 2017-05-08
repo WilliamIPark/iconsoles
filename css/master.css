@@ -1,0 +1,125 @@
+/* TYPOGRAPHY */
+
+p, h1, button {
+  font-family: "lores-12", monospace;
+  font-size: 24px;
+}
+
+h1 {
+  color: #656565;
+  font-weight: normal;
+}
+
+p {
+  color: #9E9E9E;
+}
+
+button {
+  color: white;
+}
+
+a {
+  color: #629BDC;
+}
+
+
+/* Makes the fullpage.js section a full page flexbox container, and centers content */
+.full-flex-wrap {
+    width:100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/*Wraps content so it is centered vertically in the page, and starts another flex
+container */
+.content-wrap {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 3em;
+}
+
+/* Centers text */
+.center-content {
+  text-align: center;
+}
+
+/* Left aligned content*/
+.align-left {
+  text-align: left;
+}
+
+/* Centers flexbox item */
+.center-flex {
+  align-self: center;
+}
+
+/* Link to williamipark */
+#credit {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+}
+
+/*The small logo that sits in the top left corner.*/
+.logo-small {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  height: auto;
+}
+
+/*The container for the console navigation*/
+#console-selection {
+  margin-bottom: 3em;
+}
+
+/* Small versions of icon, shown on selection menu. */
+.icon-small {
+  opacity: 0.8;
+  transition: all 0.2s ease;
+  transform: scale(0.9, 0.9);
+}
+
+.icon-small:hover {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+/* Large Version of the icon. */
+.icon-large {
+  max-height: 1000px;
+  height: 60vh;
+}
+
+/*Return button.*/
+.button-back {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/*Button styling, for 3d pixel effect*/
+button {
+  border: 0;
+  background: #629BDC;
+  padding: 15px;
+  outline: none;
+  border-bottom: 8px #577EAB solid;
+}
+
+button:hover {
+  cursor: pointer;
+  border-bottom: 8px transparent solid;
+  padding-bottom: 8px;
+  margin-top: 7px;
+}
+
+/*Shrink to content*/
+.button-small {
+  max-width: 300px;
+}
